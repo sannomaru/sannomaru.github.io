@@ -1,2 +1,3 @@
 # sannomaru
-CoderDojo三の丸です
+CoderDojo三の丸です。
+Githubpagesでサイトホストしてます。
