@@ -4,8 +4,6 @@ jQuery(function() {
   window.idx = lunr(function () {
     this.field('id');
     this.field('title', { boost: 10 });
-    this.field('author');
-    this.field('category');
   });
 
   // Download the data from the JSON file we generated
