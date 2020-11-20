@@ -17,14 +17,18 @@
   <script src="https://twemoji.maxcdn.com/v/13.0.1/twemoji.min.js" integrity="sha384-5f4X0lBluNY/Ib4VhGx0Pf6iDCF99VGXJIyYy7dDLY5QlEd7Ap0hICSSZA1XYbc4" crossorigin="anonymous"></script>
   <!-- Image and text -->
   <nav class="navbar navbar-light bg-light sticky-top ">
-    <a class="navbar-brand" href="https://sannomaru.github.io">
-      <img src="https://sannomaru.github.io/dojologo.png" width="150" height="50" loading="lazy">
-    </a>
-    </a>
+
+
   </nav>
 <div class="container-fluied">
   <div class="row">
           <div class="col-md-2 headers">
+            <div class="row">
+              <a class="navbar-brand" href="https://sannomaru.github.io">
+                <img src="https://sannomaru.github.io/dojologo.png" width="150" height="50" loading="lazy">
+              </a>
+            </div>
+          <div class="row">
             <ul class="list-group nav bd-sidenav">
               {% for post in site.posts %}
 
@@ -33,6 +37,8 @@
 
               {% endfor %}
             </ul>
+          </div>
+
           </div>
           <div class="col-10">
             <div class="card">
