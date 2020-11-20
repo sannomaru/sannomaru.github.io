@@ -8,7 +8,8 @@ jQuery(function() {
     window.idx = lunr(function () {
       this.field('id');
       this.field('title', { boost: 10 });
-    
+      this.field('author');
+      this.field('category');
 
       var that = this;
       $.each(result, function(i, value) {
