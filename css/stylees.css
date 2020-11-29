@@ -150,3 +150,16 @@ img.emoji {
   background-color: blue;
   height:3px;
 }
+.fade{
+
+  animation: fadeIn 0.2s ease 0.3s 1 normal;
+
+}
+
+@keyframes fadeIn { /*animetion-nameで設定した値を書く*/
+
+  0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+
+  100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+
+}
