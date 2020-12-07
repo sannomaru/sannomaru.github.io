@@ -133,6 +133,7 @@ height:150px;
   text-align : center;
   border-radius: 30px;
   backdrop-filter: blur(3px);
+  backdrop-filter: opacity;
 }
 .title{
   text-align: center;
