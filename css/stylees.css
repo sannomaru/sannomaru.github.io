@@ -116,7 +116,9 @@
 }
 
 body {
-  background-color: #f7f7f7;
+  /* background-color: #f7f7f7; */
+  background: linear-gradient(
+    to right,skyblue,pink)
 }
 
 .face {
@@ -164,6 +166,3 @@ img.emoji {
 .maintxt {
   text-align: left
 }
-
-background: linear-gradient(
-  to right,skyblue,pink)
