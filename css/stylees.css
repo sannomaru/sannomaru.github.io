@@ -117,8 +117,7 @@
 
 body {
   /* background-color: #f7f7f7; */
-  background: linear-gradient(
-    to right,skyblue,pink)
+  background: linear-gradient(to right, skyblue, pink)
 }
 
 .face {
@@ -166,29 +165,30 @@ img.emoji {
 .maintxt {
   text-align: left
 }
-.navbar{
-   opacity: 0.55;
+
+.navbar {
+  opacity: 0.55;
 }
-.card{
+
+.card {
   opacity: 0.85;
-  background-color: rgba( 204, 255, 204, 0.22 );
-border:none;
+  background-color: rgba(204, 255, 204, 0.22);
+  border: none;
 }
-.modal-dialog{
 
-  background-color: rgba( 204, 255, 204, 0.22 );
-border:none;
-border-radius: 30px;
-
+.modal-dialog {
+  background-color: rgba(204, 255, 204, 0.22);
+  border: none;
+  border-radius: 30px;
 }
-.modal-content{
 
-  background-color: rgba( 204, 255, 204, 0.22 );
-border:none;
-border-radius: 30px;
-
+.modal-content {
+  background-color: rgba(204, 255, 204, 0.22);
+  border: none;
+  border-radius: 30px;
 }
-.imgs{
-  border-top-left-radius:30px;
-  border-top-right-radius:30px;
+
+.imgs {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
 }
