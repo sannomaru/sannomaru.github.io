@@ -170,6 +170,7 @@ img.emoji {
    opacity: 0.55;
 }
 .card{
+  opacity: 0.55;
   background-color: rgba( 204, 255, 204, 0.22 );
 
 }
