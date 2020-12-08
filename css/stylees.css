@@ -117,16 +117,24 @@
 
 body {
   /* background-color: #f7f7f7; */
-
-  background: linear-gradient(to right, skyblue, pink)
+  background: linear-gradient(to right, skyblue, pink);
+  animation: backgroundimg 5s infinite;
 }
-@@keyframes backgroundimg {
-  0%{background: linear-gradient(to right, skyblue, pink)}
-  50%{background: linear-gradient(to right, green, orange)}
-  100%{background: linear-gradient(to right, orange, green)}
 
+@keyframes backgroundimg {
+  0% {
+    background: linear-gradient(to right, skyblue, pink)
+  }
 
+  50% {
+    background: linear-gradient(to right, green, orange)
+  }
+
+  100% {
+    background: linear-gradient(to right, orange, green)
+  }
 }
+
 .face {
   border-radius: 50%;
   width: 150px;
