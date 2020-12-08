@@ -174,10 +174,18 @@ img.emoji {
   background-color: rgba( 204, 255, 204, 0.22 );
 border:none;
 }
-.modal{
-  opacity: 0.85;
+.modal-dialog{
+
   background-color: rgba( 204, 255, 204, 0.22 );
 border:none;
+border-radius: 30px;
+
+}
+.modal-content{
+
+  background-color: rgba( 204, 255, 204, 0.22 );
+border:none;
+border-radius: 30px;
 
 }
 .imgs{
