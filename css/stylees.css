@@ -169,3 +169,7 @@ img.emoji {
 .navbar{
    opacity: 0.55;
 }
+.card{
+  background-color: rgba( 204, 255, 204, 0.22 );
+  
+}
